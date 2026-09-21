@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+01_data_acquisition/data/raw/*.tif
+
+02_label_generation/data/dnbr/*.tif
+02_label_generation/data/reference/*.tif
+02_label_generation/data/baseline/*.tif
+
+03_tiling/data/patches/train/*.npy
+03_tiling/data/patches/val/*.npy
+
+04_training/checkpoints/*.pt
+
+# --- Explicitly NOT ignored (kept as evidence/docs), for clarity ---
+# *.png, *.md, *.json, *.py are never matched above and stay tracked
+# wherever they appear — overlay images, READMEs, manifests, scripts.

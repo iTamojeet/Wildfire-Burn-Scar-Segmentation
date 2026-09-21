@@ -1,0 +1,2009 @@
+[
+  {
+    "index": 0,
+    "image_path": "data/patches/val/val_00000_img.npy",
+    "label_path": "data/patches/val/val_00000_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.134796142578125,
+    "source_y": 4992,
+    "source_x": 4864
+  },
+  {
+    "index": 1,
+    "image_path": "data/patches/val/val_00001_img.npy",
+    "label_path": "data/patches/val/val_00001_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.146026611328125,
+    "source_y": 3712,
+    "source_x": 4096
+  },
+  {
+    "index": 2,
+    "image_path": "data/patches/val/val_00002_img.npy",
+    "label_path": "data/patches/val/val_00002_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2268829345703125,
+    "source_y": 2816,
+    "source_x": 2944
+  },
+  {
+    "index": 3,
+    "image_path": "data/patches/val/val_00003_img.npy",
+    "label_path": "data/patches/val/val_00003_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.076629638671875,
+    "source_y": 5248,
+    "source_x": 3712
+  },
+  {
+    "index": 4,
+    "image_path": "data/patches/val/val_00004_img.npy",
+    "label_path": "data/patches/val/val_00004_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2613983154296875,
+    "source_y": 4992,
+    "source_x": 4224
+  },
+  {
+    "index": 5,
+    "image_path": "data/patches/val/val_00005_img.npy",
+    "label_path": "data/patches/val/val_00005_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.065948486328125,
+    "source_y": 3200,
+    "source_x": 3072
+  },
+  {
+    "index": 6,
+    "image_path": "data/patches/val/val_00006_img.npy",
+    "label_path": "data/patches/val/val_00006_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.022796630859375,
+    "source_y": 2432,
+    "source_x": 6528
+  },
+  {
+    "index": 7,
+    "image_path": "data/patches/val/val_00007_img.npy",
+    "label_path": "data/patches/val/val_00007_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0860595703125,
+    "source_y": 3200,
+    "source_x": 2304
+  },
+  {
+    "index": 8,
+    "image_path": "data/patches/val/val_00008_img.npy",
+    "label_path": "data/patches/val/val_00008_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1085357666015625,
+    "source_y": 4352,
+    "source_x": 5248
+  },
+  {
+    "index": 9,
+    "image_path": "data/patches/val/val_00009_img.npy",
+    "label_path": "data/patches/val/val_00009_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2032623291015625,
+    "source_y": 2688,
+    "source_x": 2816
+  },
+  {
+    "index": 10,
+    "image_path": "data/patches/val/val_00010_img.npy",
+    "label_path": "data/patches/val/val_00010_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.137603759765625,
+    "source_y": 4224,
+    "source_x": 2560
+  },
+  {
+    "index": 11,
+    "image_path": "data/patches/val/val_00011_img.npy",
+    "label_path": "data/patches/val/val_00011_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.23382568359375,
+    "source_y": 128,
+    "source_x": 2944
+  },
+  {
+    "index": 12,
+    "image_path": "data/patches/val/val_00012_img.npy",
+    "label_path": "data/patches/val/val_00012_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2793121337890625,
+    "source_y": 5248,
+    "source_x": 384
+  },
+  {
+    "index": 13,
+    "image_path": "data/patches/val/val_00013_img.npy",
+    "label_path": "data/patches/val/val_00013_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1878662109375,
+    "source_y": 896,
+    "source_x": 2048
+  },
+  {
+    "index": 14,
+    "image_path": "data/patches/val/val_00014_img.npy",
+    "label_path": "data/patches/val/val_00014_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1396026611328125,
+    "source_y": 2560,
+    "source_x": 1152
+  },
+  {
+    "index": 15,
+    "image_path": "data/patches/val/val_00015_img.npy",
+    "label_path": "data/patches/val/val_00015_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0529632568359375,
+    "source_y": 4480,
+    "source_x": 3712
+  },
+  {
+    "index": 16,
+    "image_path": "data/patches/val/val_00016_img.npy",
+    "label_path": "data/patches/val/val_00016_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1658172607421875,
+    "source_y": 4992,
+    "source_x": 2688
+  },
+  {
+    "index": 17,
+    "image_path": "data/patches/val/val_00017_img.npy",
+    "label_path": "data/patches/val/val_00017_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0587921142578125,
+    "source_y": 1536,
+    "source_x": 5888
+  },
+  {
+    "index": 18,
+    "image_path": "data/patches/val/val_00018_img.npy",
+    "label_path": "data/patches/val/val_00018_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1725921630859375,
+    "source_y": 3072,
+    "source_x": 3968
+  },
+  {
+    "index": 19,
+    "image_path": "data/patches/val/val_00019_img.npy",
+    "label_path": "data/patches/val/val_00019_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0959320068359375,
+    "source_y": 3456,
+    "source_x": 4864
+  },
+  {
+    "index": 20,
+    "image_path": "data/patches/val/val_00020_img.npy",
+    "label_path": "data/patches/val/val_00020_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2351226806640625,
+    "source_y": 3968,
+    "source_x": 6016
+  },
+  {
+    "index": 21,
+    "image_path": "data/patches/val/val_00021_img.npy",
+    "label_path": "data/patches/val/val_00021_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1286773681640625,
+    "source_y": 4608,
+    "source_x": 2944
+  },
+  {
+    "index": 22,
+    "image_path": "data/patches/val/val_00022_img.npy",
+    "label_path": "data/patches/val/val_00022_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.311248779296875,
+    "source_y": 768,
+    "source_x": 2176
+  },
+  {
+    "index": 23,
+    "image_path": "data/patches/val/val_00023_img.npy",
+    "label_path": "data/patches/val/val_00023_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1097869873046875,
+    "source_y": 3200,
+    "source_x": 4480
+  },
+  {
+    "index": 24,
+    "image_path": "data/patches/val/val_00024_img.npy",
+    "label_path": "data/patches/val/val_00024_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3974609375,
+    "source_y": 3968,
+    "source_x": 384
+  },
+  {
+    "index": 25,
+    "image_path": "data/patches/val/val_00025_img.npy",
+    "label_path": "data/patches/val/val_00025_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3094024658203125,
+    "source_y": 1408,
+    "source_x": 3712
+  },
+  {
+    "index": 26,
+    "image_path": "data/patches/val/val_00026_img.npy",
+    "label_path": "data/patches/val/val_00026_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1010284423828125,
+    "source_y": 3328,
+    "source_x": 2944
+  },
+  {
+    "index": 27,
+    "image_path": "data/patches/val/val_00027_img.npy",
+    "label_path": "data/patches/val/val_00027_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.22576904296875,
+    "source_y": 4864,
+    "source_x": 4352
+  },
+  {
+    "index": 28,
+    "image_path": "data/patches/val/val_00028_img.npy",
+    "label_path": "data/patches/val/val_00028_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.6118011474609375,
+    "source_y": 2048,
+    "source_x": 2560
+  },
+  {
+    "index": 29,
+    "image_path": "data/patches/val/val_00029_img.npy",
+    "label_path": "data/patches/val/val_00029_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1228485107421875,
+    "source_y": 4864,
+    "source_x": 3840
+  },
+  {
+    "index": 30,
+    "image_path": "data/patches/val/val_00030_img.npy",
+    "label_path": "data/patches/val/val_00030_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.295318603515625,
+    "source_y": 3840,
+    "source_x": 1408
+  },
+  {
+    "index": 31,
+    "image_path": "data/patches/val/val_00031_img.npy",
+    "label_path": "data/patches/val/val_00031_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0643157958984375,
+    "source_y": 5120,
+    "source_x": 2048
+  },
+  {
+    "index": 32,
+    "image_path": "data/patches/val/val_00032_img.npy",
+    "label_path": "data/patches/val/val_00032_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3319091796875,
+    "source_y": 768,
+    "source_x": 4480
+  },
+  {
+    "index": 33,
+    "image_path": "data/patches/val/val_00033_img.npy",
+    "label_path": "data/patches/val/val_00033_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4665679931640625,
+    "source_y": 3584,
+    "source_x": 5120
+  },
+  {
+    "index": 34,
+    "image_path": "data/patches/val/val_00034_img.npy",
+    "label_path": "data/patches/val/val_00034_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2178192138671875,
+    "source_y": 3712,
+    "source_x": 1408
+  },
+  {
+    "index": 35,
+    "image_path": "data/patches/val/val_00035_img.npy",
+    "label_path": "data/patches/val/val_00035_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.185028076171875,
+    "source_y": 1792,
+    "source_x": 7424
+  },
+  {
+    "index": 36,
+    "image_path": "data/patches/val/val_00036_img.npy",
+    "label_path": "data/patches/val/val_00036_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.366363525390625,
+    "source_y": 2176,
+    "source_x": 3840
+  },
+  {
+    "index": 37,
+    "image_path": "data/patches/val/val_00037_img.npy",
+    "label_path": "data/patches/val/val_00037_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.08135986328125,
+    "source_y": 4992,
+    "source_x": 2048
+  },
+  {
+    "index": 38,
+    "image_path": "data/patches/val/val_00038_img.npy",
+    "label_path": "data/patches/val/val_00038_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.108489990234375,
+    "source_y": 3840,
+    "source_x": 2048
+  },
+  {
+    "index": 39,
+    "image_path": "data/patches/val/val_00039_img.npy",
+    "label_path": "data/patches/val/val_00039_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.70599365234375,
+    "source_y": 640,
+    "source_x": 4992
+  },
+  {
+    "index": 40,
+    "image_path": "data/patches/val/val_00040_img.npy",
+    "label_path": "data/patches/val/val_00040_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1008453369140625,
+    "source_y": 4352,
+    "source_x": 2432
+  },
+  {
+    "index": 41,
+    "image_path": "data/patches/val/val_00041_img.npy",
+    "label_path": "data/patches/val/val_00041_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2865753173828125,
+    "source_y": 3328,
+    "source_x": 5760
+  },
+  {
+    "index": 42,
+    "image_path": "data/patches/val/val_00042_img.npy",
+    "label_path": "data/patches/val/val_00042_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0308380126953125,
+    "source_y": 3328,
+    "source_x": 0
+  },
+  {
+    "index": 43,
+    "image_path": "data/patches/val/val_00043_img.npy",
+    "label_path": "data/patches/val/val_00043_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.066314697265625,
+    "source_y": 4608,
+    "source_x": 3712
+  },
+  {
+    "index": 44,
+    "image_path": "data/patches/val/val_00044_img.npy",
+    "label_path": "data/patches/val/val_00044_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2667388916015625,
+    "source_y": 4864,
+    "source_x": 5504
+  },
+  {
+    "index": 45,
+    "image_path": "data/patches/val/val_00045_img.npy",
+    "label_path": "data/patches/val/val_00045_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3306732177734375,
+    "source_y": 4352,
+    "source_x": 1152
+  },
+  {
+    "index": 46,
+    "image_path": "data/patches/val/val_00046_img.npy",
+    "label_path": "data/patches/val/val_00046_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2302703857421875,
+    "source_y": 384,
+    "source_x": 3072
+  },
+  {
+    "index": 47,
+    "image_path": "data/patches/val/val_00047_img.npy",
+    "label_path": "data/patches/val/val_00047_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0929718017578125,
+    "source_y": 3072,
+    "source_x": 3200
+  },
+  {
+    "index": 48,
+    "image_path": "data/patches/val/val_00048_img.npy",
+    "label_path": "data/patches/val/val_00048_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.6420135498046875,
+    "source_y": 1408,
+    "source_x": 4224
+  },
+  {
+    "index": 49,
+    "image_path": "data/patches/val/val_00049_img.npy",
+    "label_path": "data/patches/val/val_00049_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2142791748046875,
+    "source_y": 4992,
+    "source_x": 3072
+  },
+  {
+    "index": 50,
+    "image_path": "data/patches/val/val_00050_img.npy",
+    "label_path": "data/patches/val/val_00050_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4153289794921875,
+    "source_y": 1792,
+    "source_x": 5504
+  },
+  {
+    "index": 51,
+    "image_path": "data/patches/val/val_00051_img.npy",
+    "label_path": "data/patches/val/val_00051_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1692962646484375,
+    "source_y": 2816,
+    "source_x": 640
+  },
+  {
+    "index": 52,
+    "image_path": "data/patches/val/val_00052_img.npy",
+    "label_path": "data/patches/val/val_00052_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0550537109375,
+    "source_y": 3200,
+    "source_x": 4608
+  },
+  {
+    "index": 53,
+    "image_path": "data/patches/val/val_00053_img.npy",
+    "label_path": "data/patches/val/val_00053_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0793304443359375,
+    "source_y": 3584,
+    "source_x": 4352
+  },
+  {
+    "index": 54,
+    "image_path": "data/patches/val/val_00054_img.npy",
+    "label_path": "data/patches/val/val_00054_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3673248291015625,
+    "source_y": 2944,
+    "source_x": 1536
+  },
+  {
+    "index": 55,
+    "image_path": "data/patches/val/val_00055_img.npy",
+    "label_path": "data/patches/val/val_00055_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.17962646484375,
+    "source_y": 3200,
+    "source_x": 2560
+  },
+  {
+    "index": 56,
+    "image_path": "data/patches/val/val_00056_img.npy",
+    "label_path": "data/patches/val/val_00056_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2341461181640625,
+    "source_y": 4096,
+    "source_x": 1920
+  },
+  {
+    "index": 57,
+    "image_path": "data/patches/val/val_00057_img.npy",
+    "label_path": "data/patches/val/val_00057_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3502197265625,
+    "source_y": 2432,
+    "source_x": 3840
+  },
+  {
+    "index": 58,
+    "image_path": "data/patches/val/val_00058_img.npy",
+    "label_path": "data/patches/val/val_00058_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0723876953125,
+    "source_y": 4736,
+    "source_x": 6528
+  },
+  {
+    "index": 59,
+    "image_path": "data/patches/val/val_00059_img.npy",
+    "label_path": "data/patches/val/val_00059_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1587066650390625,
+    "source_y": 4224,
+    "source_x": 2304
+  },
+  {
+    "index": 60,
+    "image_path": "data/patches/val/val_00060_img.npy",
+    "label_path": "data/patches/val/val_00060_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.331817626953125,
+    "source_y": 4864,
+    "source_x": 5376
+  },
+  {
+    "index": 61,
+    "image_path": "data/patches/val/val_00061_img.npy",
+    "label_path": "data/patches/val/val_00061_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3792724609375,
+    "source_y": 1024,
+    "source_x": 7424
+  },
+  {
+    "index": 62,
+    "image_path": "data/patches/val/val_00062_img.npy",
+    "label_path": "data/patches/val/val_00062_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1981658935546875,
+    "source_y": 5120,
+    "source_x": 1792
+  },
+  {
+    "index": 63,
+    "image_path": "data/patches/val/val_00063_img.npy",
+    "label_path": "data/patches/val/val_00063_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.595367431640625,
+    "source_y": 2176,
+    "source_x": 2176
+  },
+  {
+    "index": 64,
+    "image_path": "data/patches/val/val_00064_img.npy",
+    "label_path": "data/patches/val/val_00064_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.122100830078125,
+    "source_y": 4224,
+    "source_x": 2048
+  },
+  {
+    "index": 65,
+    "image_path": "data/patches/val/val_00065_img.npy",
+    "label_path": "data/patches/val/val_00065_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1557464599609375,
+    "source_y": 4224,
+    "source_x": 2688
+  },
+  {
+    "index": 66,
+    "image_path": "data/patches/val/val_00066_img.npy",
+    "label_path": "data/patches/val/val_00066_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2926788330078125,
+    "source_y": 4480,
+    "source_x": 5504
+  },
+  {
+    "index": 67,
+    "image_path": "data/patches/val/val_00067_img.npy",
+    "label_path": "data/patches/val/val_00067_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.108795166015625,
+    "source_y": 2432,
+    "source_x": 1152
+  },
+  {
+    "index": 68,
+    "image_path": "data/patches/val/val_00068_img.npy",
+    "label_path": "data/patches/val/val_00068_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.354583740234375,
+    "source_y": 4608,
+    "source_x": 1280
+  },
+  {
+    "index": 69,
+    "image_path": "data/patches/val/val_00069_img.npy",
+    "label_path": "data/patches/val/val_00069_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1378936767578125,
+    "source_y": 3584,
+    "source_x": 2688
+  },
+  {
+    "index": 70,
+    "image_path": "data/patches/val/val_00070_img.npy",
+    "label_path": "data/patches/val/val_00070_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.238677978515625,
+    "source_y": 5120,
+    "source_x": 5248
+  },
+  {
+    "index": 71,
+    "image_path": "data/patches/val/val_00071_img.npy",
+    "label_path": "data/patches/val/val_00071_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.25384521484375,
+    "source_y": 4736,
+    "source_x": 5248
+  },
+  {
+    "index": 72,
+    "image_path": "data/patches/val/val_00072_img.npy",
+    "label_path": "data/patches/val/val_00072_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2630157470703125,
+    "source_y": 2816,
+    "source_x": 3072
+  },
+  {
+    "index": 73,
+    "image_path": "data/patches/val/val_00073_img.npy",
+    "label_path": "data/patches/val/val_00073_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2935028076171875,
+    "source_y": 2432,
+    "source_x": 5760
+  },
+  {
+    "index": 74,
+    "image_path": "data/patches/val/val_00074_img.npy",
+    "label_path": "data/patches/val/val_00074_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.088287353515625,
+    "source_y": 3072,
+    "source_x": 2944
+  },
+  {
+    "index": 75,
+    "image_path": "data/patches/val/val_00075_img.npy",
+    "label_path": "data/patches/val/val_00075_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.086822509765625,
+    "source_y": 4352,
+    "source_x": 4224
+  },
+  {
+    "index": 76,
+    "image_path": "data/patches/val/val_00076_img.npy",
+    "label_path": "data/patches/val/val_00076_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3040771484375,
+    "source_y": 3584,
+    "source_x": 1408
+  },
+  {
+    "index": 77,
+    "image_path": "data/patches/val/val_00077_img.npy",
+    "label_path": "data/patches/val/val_00077_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3076629638671875,
+    "source_y": 3072,
+    "source_x": 5888
+  },
+  {
+    "index": 78,
+    "image_path": "data/patches/val/val_00078_img.npy",
+    "label_path": "data/patches/val/val_00078_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0772552490234375,
+    "source_y": 3840,
+    "source_x": 3968
+  },
+  {
+    "index": 79,
+    "image_path": "data/patches/val/val_00079_img.npy",
+    "label_path": "data/patches/val/val_00079_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5895538330078125,
+    "source_y": 5248,
+    "source_x": 4736
+  },
+  {
+    "index": 80,
+    "image_path": "data/patches/val/val_00080_img.npy",
+    "label_path": "data/patches/val/val_00080_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2254486083984375,
+    "source_y": 4864,
+    "source_x": 5120
+  },
+  {
+    "index": 81,
+    "image_path": "data/patches/val/val_00081_img.npy",
+    "label_path": "data/patches/val/val_00081_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1221923828125,
+    "source_y": 1280,
+    "source_x": 5504
+  },
+  {
+    "index": 82,
+    "image_path": "data/patches/val/val_00082_img.npy",
+    "label_path": "data/patches/val/val_00082_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.226409912109375,
+    "source_y": 3328,
+    "source_x": 6144
+  },
+  {
+    "index": 83,
+    "image_path": "data/patches/val/val_00083_img.npy",
+    "label_path": "data/patches/val/val_00083_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.121978759765625,
+    "source_y": 4864,
+    "source_x": 3712
+  },
+  {
+    "index": 84,
+    "image_path": "data/patches/val/val_00084_img.npy",
+    "label_path": "data/patches/val/val_00084_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1580810546875,
+    "source_y": 5248,
+    "source_x": 2944
+  },
+  {
+    "index": 85,
+    "image_path": "data/patches/val/val_00085_img.npy",
+    "label_path": "data/patches/val/val_00085_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.711273193359375,
+    "source_y": 1024,
+    "source_x": 4608
+  },
+  {
+    "index": 86,
+    "image_path": "data/patches/val/val_00086_img.npy",
+    "label_path": "data/patches/val/val_00086_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.18426513671875,
+    "source_y": 4736,
+    "source_x": 1920
+  },
+  {
+    "index": 87,
+    "image_path": "data/patches/val/val_00087_img.npy",
+    "label_path": "data/patches/val/val_00087_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.14373779296875,
+    "source_y": 3968,
+    "source_x": 2432
+  },
+  {
+    "index": 88,
+    "image_path": "data/patches/val/val_00088_img.npy",
+    "label_path": "data/patches/val/val_00088_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0764617919921875,
+    "source_y": 2560,
+    "source_x": 2688
+  },
+  {
+    "index": 89,
+    "image_path": "data/patches/val/val_00089_img.npy",
+    "label_path": "data/patches/val/val_00089_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1127471923828125,
+    "source_y": 3072,
+    "source_x": 5248
+  },
+  {
+    "index": 90,
+    "image_path": "data/patches/val/val_00090_img.npy",
+    "label_path": "data/patches/val/val_00090_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.01605224609375,
+    "source_y": 2304,
+    "source_x": 384
+  },
+  {
+    "index": 91,
+    "image_path": "data/patches/val/val_00091_img.npy",
+    "label_path": "data/patches/val/val_00091_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.228790283203125,
+    "source_y": 1152,
+    "source_x": 3584
+  },
+  {
+    "index": 92,
+    "image_path": "data/patches/val/val_00092_img.npy",
+    "label_path": "data/patches/val/val_00092_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.25482177734375,
+    "source_y": 2944,
+    "source_x": 4736
+  },
+  {
+    "index": 93,
+    "image_path": "data/patches/val/val_00093_img.npy",
+    "label_path": "data/patches/val/val_00093_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3949737548828125,
+    "source_y": 2816,
+    "source_x": 4864
+  },
+  {
+    "index": 94,
+    "image_path": "data/patches/val/val_00094_img.npy",
+    "label_path": "data/patches/val/val_00094_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.099273681640625,
+    "source_y": 3456,
+    "source_x": 2432
+  },
+  {
+    "index": 95,
+    "image_path": "data/patches/val/val_00095_img.npy",
+    "label_path": "data/patches/val/val_00095_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.047271728515625,
+    "source_y": 5248,
+    "source_x": 2304
+  },
+  {
+    "index": 96,
+    "image_path": "data/patches/val/val_00096_img.npy",
+    "label_path": "data/patches/val/val_00096_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1155242919921875,
+    "source_y": 1536,
+    "source_x": 5504
+  },
+  {
+    "index": 97,
+    "image_path": "data/patches/val/val_00097_img.npy",
+    "label_path": "data/patches/val/val_00097_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.05169677734375,
+    "source_y": 3072,
+    "source_x": 3072
+  },
+  {
+    "index": 98,
+    "image_path": "data/patches/val/val_00098_img.npy",
+    "label_path": "data/patches/val/val_00098_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.27874755859375,
+    "source_y": 5248,
+    "source_x": 4352
+  },
+  {
+    "index": 99,
+    "image_path": "data/patches/val/val_00099_img.npy",
+    "label_path": "data/patches/val/val_00099_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.025054931640625,
+    "source_y": 4224,
+    "source_x": 4992
+  },
+  {
+    "index": 100,
+    "image_path": "data/patches/val/val_00100_img.npy",
+    "label_path": "data/patches/val/val_00100_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3662567138671875,
+    "source_y": 1024,
+    "source_x": 4992
+  },
+  {
+    "index": 101,
+    "image_path": "data/patches/val/val_00101_img.npy",
+    "label_path": "data/patches/val/val_00101_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.110931396484375,
+    "source_y": 4864,
+    "source_x": 3200
+  },
+  {
+    "index": 102,
+    "image_path": "data/patches/val/val_00102_img.npy",
+    "label_path": "data/patches/val/val_00102_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3379364013671875,
+    "source_y": 2176,
+    "source_x": 5248
+  },
+  {
+    "index": 103,
+    "image_path": "data/patches/val/val_00103_img.npy",
+    "label_path": "data/patches/val/val_00103_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2362823486328125,
+    "source_y": 2944,
+    "source_x": 6144
+  },
+  {
+    "index": 104,
+    "image_path": "data/patches/val/val_00104_img.npy",
+    "label_path": "data/patches/val/val_00104_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0174407958984375,
+    "source_y": 2560,
+    "source_x": 6656
+  },
+  {
+    "index": 105,
+    "image_path": "data/patches/val/val_00105_img.npy",
+    "label_path": "data/patches/val/val_00105_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1486053466796875,
+    "source_y": 3072,
+    "source_x": 512
+  },
+  {
+    "index": 106,
+    "image_path": "data/patches/val/val_00106_img.npy",
+    "label_path": "data/patches/val/val_00106_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3992919921875,
+    "source_y": 3328,
+    "source_x": 5888
+  },
+  {
+    "index": 107,
+    "image_path": "data/patches/val/val_00107_img.npy",
+    "label_path": "data/patches/val/val_00107_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.24041748046875,
+    "source_y": 2816,
+    "source_x": 1792
+  },
+  {
+    "index": 108,
+    "image_path": "data/patches/val/val_00108_img.npy",
+    "label_path": "data/patches/val/val_00108_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.299957275390625,
+    "source_y": 3840,
+    "source_x": 512
+  },
+  {
+    "index": 109,
+    "image_path": "data/patches/val/val_00109_img.npy",
+    "label_path": "data/patches/val/val_00109_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2865753173828125,
+    "source_y": 5120,
+    "source_x": 1280
+  },
+  {
+    "index": 110,
+    "image_path": "data/patches/val/val_00110_img.npy",
+    "label_path": "data/patches/val/val_00110_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.029937744140625,
+    "source_y": 3328,
+    "source_x": 4224
+  },
+  {
+    "index": 111,
+    "image_path": "data/patches/val/val_00111_img.npy",
+    "label_path": "data/patches/val/val_00111_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.258575439453125,
+    "source_y": 3200,
+    "source_x": 6016
+  },
+  {
+    "index": 112,
+    "image_path": "data/patches/val/val_00112_img.npy",
+    "label_path": "data/patches/val/val_00112_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2038116455078125,
+    "source_y": 1408,
+    "source_x": 3456
+  },
+  {
+    "index": 113,
+    "image_path": "data/patches/val/val_00113_img.npy",
+    "label_path": "data/patches/val/val_00113_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0879974365234375,
+    "source_y": 2048,
+    "source_x": 896
+  },
+  {
+    "index": 114,
+    "image_path": "data/patches/val/val_00114_img.npy",
+    "label_path": "data/patches/val/val_00114_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3779449462890625,
+    "source_y": 1792,
+    "source_x": 4096
+  },
+  {
+    "index": 115,
+    "image_path": "data/patches/val/val_00115_img.npy",
+    "label_path": "data/patches/val/val_00115_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.250244140625,
+    "source_y": 4736,
+    "source_x": 384
+  },
+  {
+    "index": 116,
+    "image_path": "data/patches/val/val_00116_img.npy",
+    "label_path": "data/patches/val/val_00116_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4412841796875,
+    "source_y": 1280,
+    "source_x": 4480
+  },
+  {
+    "index": 117,
+    "image_path": "data/patches/val/val_00117_img.npy",
+    "label_path": "data/patches/val/val_00117_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5857086181640625,
+    "source_y": 2688,
+    "source_x": 1536
+  },
+  {
+    "index": 118,
+    "image_path": "data/patches/val/val_00118_img.npy",
+    "label_path": "data/patches/val/val_00118_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.380889892578125,
+    "source_y": 1408,
+    "source_x": 1536
+  },
+  {
+    "index": 119,
+    "image_path": "data/patches/val/val_00119_img.npy",
+    "label_path": "data/patches/val/val_00119_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.192657470703125,
+    "source_y": 2176,
+    "source_x": 5760
+  },
+  {
+    "index": 120,
+    "image_path": "data/patches/val/val_00120_img.npy",
+    "label_path": "data/patches/val/val_00120_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0458984375,
+    "source_y": 1280,
+    "source_x": 5888
+  },
+  {
+    "index": 121,
+    "image_path": "data/patches/val/val_00121_img.npy",
+    "label_path": "data/patches/val/val_00121_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.05950927734375,
+    "source_y": 4608,
+    "source_x": 3968
+  },
+  {
+    "index": 122,
+    "image_path": "data/patches/val/val_00122_img.npy",
+    "label_path": "data/patches/val/val_00122_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.041168212890625,
+    "source_y": 4096,
+    "source_x": 4608
+  },
+  {
+    "index": 123,
+    "image_path": "data/patches/val/val_00123_img.npy",
+    "label_path": "data/patches/val/val_00123_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4859161376953125,
+    "source_y": 2176,
+    "source_x": 3968
+  },
+  {
+    "index": 124,
+    "image_path": "data/patches/val/val_00124_img.npy",
+    "label_path": "data/patches/val/val_00124_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2919769287109375,
+    "source_y": 4992,
+    "source_x": 1024
+  },
+  {
+    "index": 125,
+    "image_path": "data/patches/val/val_00125_img.npy",
+    "label_path": "data/patches/val/val_00125_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3571624755859375,
+    "source_y": 2560,
+    "source_x": 5760
+  },
+  {
+    "index": 126,
+    "image_path": "data/patches/val/val_00126_img.npy",
+    "label_path": "data/patches/val/val_00126_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.220611572265625,
+    "source_y": 0,
+    "source_x": 3840
+  },
+  {
+    "index": 127,
+    "image_path": "data/patches/val/val_00127_img.npy",
+    "label_path": "data/patches/val/val_00127_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.190338134765625,
+    "source_y": 3584,
+    "source_x": 2176
+  },
+  {
+    "index": 128,
+    "image_path": "data/patches/val/val_00128_img.npy",
+    "label_path": "data/patches/val/val_00128_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1710052490234375,
+    "source_y": 5120,
+    "source_x": 640
+  },
+  {
+    "index": 129,
+    "image_path": "data/patches/val/val_00129_img.npy",
+    "label_path": "data/patches/val/val_00129_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.150482177734375,
+    "source_y": 3968,
+    "source_x": 2304
+  },
+  {
+    "index": 130,
+    "image_path": "data/patches/val/val_00130_img.npy",
+    "label_path": "data/patches/val/val_00130_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2615203857421875,
+    "source_y": 256,
+    "source_x": 3328
+  },
+  {
+    "index": 131,
+    "image_path": "data/patches/val/val_00131_img.npy",
+    "label_path": "data/patches/val/val_00131_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.086273193359375,
+    "source_y": 3072,
+    "source_x": 2816
+  },
+  {
+    "index": 132,
+    "image_path": "data/patches/val/val_00132_img.npy",
+    "label_path": "data/patches/val/val_00132_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1096954345703125,
+    "source_y": 4864,
+    "source_x": 3968
+  },
+  {
+    "index": 133,
+    "image_path": "data/patches/val/val_00133_img.npy",
+    "label_path": "data/patches/val/val_00133_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.243988037109375,
+    "source_y": 3840,
+    "source_x": 384
+  },
+  {
+    "index": 134,
+    "image_path": "data/patches/val/val_00134_img.npy",
+    "label_path": "data/patches/val/val_00134_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1629180908203125,
+    "source_y": 3584,
+    "source_x": 1792
+  },
+  {
+    "index": 135,
+    "image_path": "data/patches/val/val_00135_img.npy",
+    "label_path": "data/patches/val/val_00135_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0299072265625,
+    "source_y": 4352,
+    "source_x": 4736
+  },
+  {
+    "index": 136,
+    "image_path": "data/patches/val/val_00136_img.npy",
+    "label_path": "data/patches/val/val_00136_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.285797119140625,
+    "source_y": 3328,
+    "source_x": 4992
+  },
+  {
+    "index": 137,
+    "image_path": "data/patches/val/val_00137_img.npy",
+    "label_path": "data/patches/val/val_00137_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.04718017578125,
+    "source_y": 3968,
+    "source_x": 3712
+  },
+  {
+    "index": 138,
+    "image_path": "data/patches/val/val_00138_img.npy",
+    "label_path": "data/patches/val/val_00138_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0258636474609375,
+    "source_y": 3456,
+    "source_x": 4224
+  },
+  {
+    "index": 139,
+    "image_path": "data/patches/val/val_00139_img.npy",
+    "label_path": "data/patches/val/val_00139_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.106842041015625,
+    "source_y": 5120,
+    "source_x": 3840
+  },
+  {
+    "index": 140,
+    "image_path": "data/patches/val/val_00140_img.npy",
+    "label_path": "data/patches/val/val_00140_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5940704345703125,
+    "source_y": 1792,
+    "source_x": 3584
+  },
+  {
+    "index": 141,
+    "image_path": "data/patches/val/val_00141_img.npy",
+    "label_path": "data/patches/val/val_00141_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.617431640625,
+    "source_y": 1664,
+    "source_x": 4096
+  },
+  {
+    "index": 142,
+    "image_path": "data/patches/val/val_00142_img.npy",
+    "label_path": "data/patches/val/val_00142_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.6312255859375,
+    "source_y": 2560,
+    "source_x": 3712
+  },
+  {
+    "index": 143,
+    "image_path": "data/patches/val/val_00143_img.npy",
+    "label_path": "data/patches/val/val_00143_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0496368408203125,
+    "source_y": 4608,
+    "source_x": 4224
+  },
+  {
+    "index": 144,
+    "image_path": "data/patches/val/val_00144_img.npy",
+    "label_path": "data/patches/val/val_00144_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5789794921875,
+    "source_y": 1536,
+    "source_x": 3968
+  },
+  {
+    "index": 145,
+    "image_path": "data/patches/val/val_00145_img.npy",
+    "label_path": "data/patches/val/val_00145_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.37841796875,
+    "source_y": 1664,
+    "source_x": 7424
+  },
+  {
+    "index": 146,
+    "image_path": "data/patches/val/val_00146_img.npy",
+    "label_path": "data/patches/val/val_00146_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0551300048828125,
+    "source_y": 2432,
+    "source_x": 512
+  },
+  {
+    "index": 147,
+    "image_path": "data/patches/val/val_00147_img.npy",
+    "label_path": "data/patches/val/val_00147_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5778656005859375,
+    "source_y": 1664,
+    "source_x": 3200
+  },
+  {
+    "index": 148,
+    "image_path": "data/patches/val/val_00148_img.npy",
+    "label_path": "data/patches/val/val_00148_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.253936767578125,
+    "source_y": 3712,
+    "source_x": 5376
+  },
+  {
+    "index": 149,
+    "image_path": "data/patches/val/val_00149_img.npy",
+    "label_path": "data/patches/val/val_00149_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.509307861328125,
+    "source_y": 2432,
+    "source_x": 4352
+  },
+  {
+    "index": 150,
+    "image_path": "data/patches/val/val_00150_img.npy",
+    "label_path": "data/patches/val/val_00150_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2415008544921875,
+    "source_y": 4864,
+    "source_x": 1408
+  },
+  {
+    "index": 151,
+    "image_path": "data/patches/val/val_00151_img.npy",
+    "label_path": "data/patches/val/val_00151_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0827178955078125,
+    "source_y": 2304,
+    "source_x": 896
+  },
+  {
+    "index": 152,
+    "image_path": "data/patches/val/val_00152_img.npy",
+    "label_path": "data/patches/val/val_00152_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1055908203125,
+    "source_y": 4864,
+    "source_x": 3072
+  },
+  {
+    "index": 153,
+    "image_path": "data/patches/val/val_00153_img.npy",
+    "label_path": "data/patches/val/val_00153_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.333526611328125,
+    "source_y": 2560,
+    "source_x": 2176
+  },
+  {
+    "index": 154,
+    "image_path": "data/patches/val/val_00154_img.npy",
+    "label_path": "data/patches/val/val_00154_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.46820068359375,
+    "source_y": 1920,
+    "source_x": 3840
+  },
+  {
+    "index": 155,
+    "image_path": "data/patches/val/val_00155_img.npy",
+    "label_path": "data/patches/val/val_00155_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0482635498046875,
+    "source_y": 4480,
+    "source_x": 3840
+  },
+  {
+    "index": 156,
+    "image_path": "data/patches/val/val_00156_img.npy",
+    "label_path": "data/patches/val/val_00156_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.304534912109375,
+    "source_y": 3840,
+    "source_x": 1664
+  },
+  {
+    "index": 157,
+    "image_path": "data/patches/val/val_00157_img.npy",
+    "label_path": "data/patches/val/val_00157_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.23199462890625,
+    "source_y": 5120,
+    "source_x": 768
+  },
+  {
+    "index": 158,
+    "image_path": "data/patches/val/val_00158_img.npy",
+    "label_path": "data/patches/val/val_00158_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.177734375,
+    "source_y": 2176,
+    "source_x": 5888
+  },
+  {
+    "index": 159,
+    "image_path": "data/patches/val/val_00159_img.npy",
+    "label_path": "data/patches/val/val_00159_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1669921875,
+    "source_y": 4096,
+    "source_x": 3072
+  },
+  {
+    "index": 160,
+    "image_path": "data/patches/val/val_00160_img.npy",
+    "label_path": "data/patches/val/val_00160_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.071533203125,
+    "source_y": 4480,
+    "source_x": 2688
+  },
+  {
+    "index": 161,
+    "image_path": "data/patches/val/val_00161_img.npy",
+    "label_path": "data/patches/val/val_00161_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.17138671875,
+    "source_y": 4864,
+    "source_x": 1280
+  },
+  {
+    "index": 162,
+    "image_path": "data/patches/val/val_00162_img.npy",
+    "label_path": "data/patches/val/val_00162_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.184356689453125,
+    "source_y": 3968,
+    "source_x": 5760
+  },
+  {
+    "index": 163,
+    "image_path": "data/patches/val/val_00163_img.npy",
+    "label_path": "data/patches/val/val_00163_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.167266845703125,
+    "source_y": 1152,
+    "source_x": 1408
+  },
+  {
+    "index": 164,
+    "image_path": "data/patches/val/val_00164_img.npy",
+    "label_path": "data/patches/val/val_00164_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4507598876953125,
+    "source_y": 256,
+    "source_x": 3712
+  },
+  {
+    "index": 165,
+    "image_path": "data/patches/val/val_00165_img.npy",
+    "label_path": "data/patches/val/val_00165_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1064605712890625,
+    "source_y": 5120,
+    "source_x": 2432
+  },
+  {
+    "index": 166,
+    "image_path": "data/patches/val/val_00166_img.npy",
+    "label_path": "data/patches/val/val_00166_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1184234619140625,
+    "source_y": 2944,
+    "source_x": 3968
+  },
+  {
+    "index": 167,
+    "image_path": "data/patches/val/val_00167_img.npy",
+    "label_path": "data/patches/val/val_00167_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2681732177734375,
+    "source_y": 1280,
+    "source_x": 3712
+  },
+  {
+    "index": 168,
+    "image_path": "data/patches/val/val_00168_img.npy",
+    "label_path": "data/patches/val/val_00168_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.71795654296875,
+    "source_y": 2176,
+    "source_x": 2944
+  },
+  {
+    "index": 169,
+    "image_path": "data/patches/val/val_00169_img.npy",
+    "label_path": "data/patches/val/val_00169_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.144561767578125,
+    "source_y": 4352,
+    "source_x": 4352
+  },
+  {
+    "index": 170,
+    "image_path": "data/patches/val/val_00170_img.npy",
+    "label_path": "data/patches/val/val_00170_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5092620849609375,
+    "source_y": 4352,
+    "source_x": 384
+  },
+  {
+    "index": 171,
+    "image_path": "data/patches/val/val_00171_img.npy",
+    "label_path": "data/patches/val/val_00171_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.132781982421875,
+    "source_y": 4736,
+    "source_x": 2304
+  },
+  {
+    "index": 172,
+    "image_path": "data/patches/val/val_00172_img.npy",
+    "label_path": "data/patches/val/val_00172_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.101348876953125,
+    "source_y": 2560,
+    "source_x": 640
+  },
+  {
+    "index": 173,
+    "image_path": "data/patches/val/val_00173_img.npy",
+    "label_path": "data/patches/val/val_00173_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5028228759765625,
+    "source_y": 1536,
+    "source_x": 3200
+  },
+  {
+    "index": 174,
+    "image_path": "data/patches/val/val_00174_img.npy",
+    "label_path": "data/patches/val/val_00174_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3561859130859375,
+    "source_y": 5248,
+    "source_x": 1280
+  },
+  {
+    "index": 175,
+    "image_path": "data/patches/val/val_00175_img.npy",
+    "label_path": "data/patches/val/val_00175_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3072509765625,
+    "source_y": 4096,
+    "source_x": 256
+  },
+  {
+    "index": 176,
+    "image_path": "data/patches/val/val_00176_img.npy",
+    "label_path": "data/patches/val/val_00176_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.5175628662109375,
+    "source_y": 3072,
+    "source_x": 3584
+  },
+  {
+    "index": 177,
+    "image_path": "data/patches/val/val_00177_img.npy",
+    "label_path": "data/patches/val/val_00177_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.474822998046875,
+    "source_y": 2432,
+    "source_x": 2944
+  },
+  {
+    "index": 178,
+    "image_path": "data/patches/val/val_00178_img.npy",
+    "label_path": "data/patches/val/val_00178_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1564788818359375,
+    "source_y": 4608,
+    "source_x": 2176
+  },
+  {
+    "index": 179,
+    "image_path": "data/patches/val/val_00179_img.npy",
+    "label_path": "data/patches/val/val_00179_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.42242431640625,
+    "source_y": 4096,
+    "source_x": 384
+  },
+  {
+    "index": 180,
+    "image_path": "data/patches/val/val_00180_img.npy",
+    "label_path": "data/patches/val/val_00180_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1490325927734375,
+    "source_y": 3328,
+    "source_x": 2432
+  },
+  {
+    "index": 181,
+    "image_path": "data/patches/val/val_00181_img.npy",
+    "label_path": "data/patches/val/val_00181_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.272308349609375,
+    "source_y": 5248,
+    "source_x": 1408
+  },
+  {
+    "index": 182,
+    "image_path": "data/patches/val/val_00182_img.npy",
+    "label_path": "data/patches/val/val_00182_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1314849853515625,
+    "source_y": 4736,
+    "source_x": 3328
+  },
+  {
+    "index": 183,
+    "image_path": "data/patches/val/val_00183_img.npy",
+    "label_path": "data/patches/val/val_00183_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3548736572265625,
+    "source_y": 4224,
+    "source_x": 5760
+  },
+  {
+    "index": 184,
+    "image_path": "data/patches/val/val_00184_img.npy",
+    "label_path": "data/patches/val/val_00184_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1175079345703125,
+    "source_y": 3968,
+    "source_x": 5376
+  },
+  {
+    "index": 185,
+    "image_path": "data/patches/val/val_00185_img.npy",
+    "label_path": "data/patches/val/val_00185_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.053497314453125,
+    "source_y": 5248,
+    "source_x": 3328
+  },
+  {
+    "index": 186,
+    "image_path": "data/patches/val/val_00186_img.npy",
+    "label_path": "data/patches/val/val_00186_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.3022308349609375,
+    "source_y": 2176,
+    "source_x": 4608
+  },
+  {
+    "index": 187,
+    "image_path": "data/patches/val/val_00187_img.npy",
+    "label_path": "data/patches/val/val_00187_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.327667236328125,
+    "source_y": 3840,
+    "source_x": 1280
+  },
+  {
+    "index": 188,
+    "image_path": "data/patches/val/val_00188_img.npy",
+    "label_path": "data/patches/val/val_00188_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.065399169921875,
+    "source_y": 4608,
+    "source_x": 4608
+  },
+  {
+    "index": 189,
+    "image_path": "data/patches/val/val_00189_img.npy",
+    "label_path": "data/patches/val/val_00189_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2407379150390625,
+    "source_y": 3072,
+    "source_x": 5376
+  },
+  {
+    "index": 190,
+    "image_path": "data/patches/val/val_00190_img.npy",
+    "label_path": "data/patches/val/val_00190_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1131591796875,
+    "source_y": 1920,
+    "source_x": 1024
+  },
+  {
+    "index": 191,
+    "image_path": "data/patches/val/val_00191_img.npy",
+    "label_path": "data/patches/val/val_00191_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.0148773193359375,
+    "source_y": 2432,
+    "source_x": 6656
+  },
+  {
+    "index": 192,
+    "image_path": "data/patches/val/val_00192_img.npy",
+    "label_path": "data/patches/val/val_00192_lbl.npy",
+    "has_fire": false,
+    "burned_fraction": 0.01080322265625,
+    "source_y": 4352,
+    "source_x": 4864
+  },
+  {
+    "index": 193,
+    "image_path": "data/patches/val/val_00193_img.npy",
+    "label_path": "data/patches/val/val_00193_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.244720458984375,
+    "source_y": 4224,
+    "source_x": 1792
+  },
+  {
+    "index": 194,
+    "image_path": "data/patches/val/val_00194_img.npy",
+    "label_path": "data/patches/val/val_00194_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.28826904296875,
+    "source_y": 2816,
+    "source_x": 6016
+  },
+  {
+    "index": 195,
+    "image_path": "data/patches/val/val_00195_img.npy",
+    "label_path": "data/patches/val/val_00195_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.07470703125,
+    "source_y": 4864,
+    "source_x": 6656
+  },
+  {
+    "index": 196,
+    "image_path": "data/patches/val/val_00196_img.npy",
+    "label_path": "data/patches/val/val_00196_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.06683349609375,
+    "source_y": 4224,
+    "source_x": 4096
+  },
+  {
+    "index": 197,
+    "image_path": "data/patches/val/val_00197_img.npy",
+    "label_path": "data/patches/val/val_00197_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0998077392578125,
+    "source_y": 4864,
+    "source_x": 3456
+  },
+  {
+    "index": 198,
+    "image_path": "data/patches/val/val_00198_img.npy",
+    "label_path": "data/patches/val/val_00198_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.59283447265625,
+    "source_y": 2560,
+    "source_x": 4480
+  },
+  {
+    "index": 199,
+    "image_path": "data/patches/val/val_00199_img.npy",
+    "label_path": "data/patches/val/val_00199_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2127838134765625,
+    "source_y": 4096,
+    "source_x": 5248
+  },
+  {
+    "index": 200,
+    "image_path": "data/patches/val/val_00200_img.npy",
+    "label_path": "data/patches/val/val_00200_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1229705810546875,
+    "source_y": 4352,
+    "source_x": 2304
+  },
+  {
+    "index": 201,
+    "image_path": "data/patches/val/val_00201_img.npy",
+    "label_path": "data/patches/val/val_00201_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2074432373046875,
+    "source_y": 1024,
+    "source_x": 2304
+  },
+  {
+    "index": 202,
+    "image_path": "data/patches/val/val_00202_img.npy",
+    "label_path": "data/patches/val/val_00202_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1961822509765625,
+    "source_y": 3584,
+    "source_x": 1536
+  },
+  {
+    "index": 203,
+    "image_path": "data/patches/val/val_00203_img.npy",
+    "label_path": "data/patches/val/val_00203_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.542633056640625,
+    "source_y": 2304,
+    "source_x": 2944
+  },
+  {
+    "index": 204,
+    "image_path": "data/patches/val/val_00204_img.npy",
+    "label_path": "data/patches/val/val_00204_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.6142425537109375,
+    "source_y": 128,
+    "source_x": 4224
+  },
+  {
+    "index": 205,
+    "image_path": "data/patches/val/val_00205_img.npy",
+    "label_path": "data/patches/val/val_00205_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.265167236328125,
+    "source_y": 4992,
+    "source_x": 768
+  },
+  {
+    "index": 206,
+    "image_path": "data/patches/val/val_00206_img.npy",
+    "label_path": "data/patches/val/val_00206_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0706939697265625,
+    "source_y": 4352,
+    "source_x": 3968
+  },
+  {
+    "index": 207,
+    "image_path": "data/patches/val/val_00207_img.npy",
+    "label_path": "data/patches/val/val_00207_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4129180908203125,
+    "source_y": 1024,
+    "source_x": 7296
+  },
+  {
+    "index": 208,
+    "image_path": "data/patches/val/val_00208_img.npy",
+    "label_path": "data/patches/val/val_00208_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.197906494140625,
+    "source_y": 4352,
+    "source_x": 1792
+  },
+  {
+    "index": 209,
+    "image_path": "data/patches/val/val_00209_img.npy",
+    "label_path": "data/patches/val/val_00209_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.20892333984375,
+    "source_y": 1152,
+    "source_x": 3968
+  },
+  {
+    "index": 210,
+    "image_path": "data/patches/val/val_00210_img.npy",
+    "label_path": "data/patches/val/val_00210_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.257476806640625,
+    "source_y": 5248,
+    "source_x": 2816
+  },
+  {
+    "index": 211,
+    "image_path": "data/patches/val/val_00211_img.npy",
+    "label_path": "data/patches/val/val_00211_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.374664306640625,
+    "source_y": 1408,
+    "source_x": 4352
+  },
+  {
+    "index": 212,
+    "image_path": "data/patches/val/val_00212_img.npy",
+    "label_path": "data/patches/val/val_00212_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.4279022216796875,
+    "source_y": 2688,
+    "source_x": 5632
+  },
+  {
+    "index": 213,
+    "image_path": "data/patches/val/val_00213_img.npy",
+    "label_path": "data/patches/val/val_00213_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.0969696044921875,
+    "source_y": 5120,
+    "source_x": 3968
+  },
+  {
+    "index": 214,
+    "image_path": "data/patches/val/val_00214_img.npy",
+    "label_path": "data/patches/val/val_00214_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.34307861328125,
+    "source_y": 4608,
+    "source_x": 1152
+  },
+  {
+    "index": 215,
+    "image_path": "data/patches/val/val_00215_img.npy",
+    "label_path": "data/patches/val/val_00215_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.728485107421875,
+    "source_y": 896,
+    "source_x": 4864
+  },
+  {
+    "index": 216,
+    "image_path": "data/patches/val/val_00216_img.npy",
+    "label_path": "data/patches/val/val_00216_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1086883544921875,
+    "source_y": 3456,
+    "source_x": 2816
+  },
+  {
+    "index": 217,
+    "image_path": "data/patches/val/val_00217_img.npy",
+    "label_path": "data/patches/val/val_00217_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2357330322265625,
+    "source_y": 2944,
+    "source_x": 4224
+  },
+  {
+    "index": 218,
+    "image_path": "data/patches/val/val_00218_img.npy",
+    "label_path": "data/patches/val/val_00218_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.270294189453125,
+    "source_y": 2688,
+    "source_x": 4864
+  },
+  {
+    "index": 219,
+    "image_path": "data/patches/val/val_00219_img.npy",
+    "label_path": "data/patches/val/val_00219_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.2173614501953125,
+    "source_y": 3072,
+    "source_x": 1536
+  },
+  {
+    "index": 220,
+    "image_path": "data/patches/val/val_00220_img.npy",
+    "label_path": "data/patches/val/val_00220_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1726531982421875,
+    "source_y": 4224,
+    "source_x": 1536
+  },
+  {
+    "index": 221,
+    "image_path": "data/patches/val/val_00221_img.npy",
+    "label_path": "data/patches/val/val_00221_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.05841064453125,
+    "source_y": 3840,
+    "source_x": 3072
+  },
+  {
+    "index": 222,
+    "image_path": "data/patches/val/val_00222_img.npy",
+    "label_path": "data/patches/val/val_00222_lbl.npy",
+    "has_fire": true,
+    "burned_fraction": 0.1775360107421875,
+    "source_y": 0,
+    "source_x": 2944
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./04_training"]
+}
