@@ -15,6 +15,8 @@ __pycache__/
 
 04_training/checkpoints/*.pt
 
+06_domain_gap_analysis/data/raw/*.tif
+
 # --- Explicitly NOT ignored (kept as evidence/docs), for clarity ---
 # *.png, *.md, *.json, *.py are never matched above and stay tracked
 # wherever they appear — overlay images, READMEs, manifests, scripts.
