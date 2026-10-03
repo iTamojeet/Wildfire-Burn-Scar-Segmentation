@@ -1,15 +1,13 @@
 """
-06_domain_gap_analysis/acquire_regions.py — CORRECTED
+06_domain_gap_analysis/acquire_regions.py — SECOND CORRECTION
 
 Fixes:
-1. Mediterranean AOI corrected to actually cover North Evia's land/
-   burned forest area, not open sea.
-2. Pantanal post-fire window shifted to Nov 2020, since fire activity
-   was documented continuing into early November - Oct 1-20 caught
-   active smoke/fire rather than a settled scar.
-3. Siberia pre-fire window shifted earlier (May) to avoid the cloud
-   cover seen in June, while still safely before the late-June fire
-   onset.
+1. Mediterranean AOI corrected using real coordinates (Limni/Agia Anna/
+   Mantoudi) - previous two attempts used wrong coordinates entirely,
+   missing the actual burn zone both times.
+2. Siberia AOI narrowed to stay within a single UTM zone (51),
+   eliminating the cross-zone tile seam affecting the post-fire mosaic.
+3. Pantanal: unchanged for now - see diagnostic script below first.
 """
 
 import os
@@ -23,25 +21,20 @@ CLOUD_THRESHOLD = 15
 BANDS = ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B8A", "B9", "B11", "B12"]
 
 REGIONS = {
-    "pantanal": {
-        "aoi": ee.Geometry.Rectangle([-57.10, -17.55, -56.50, -17.05]),
-        "pre_fire_window": ("2020-07-01", "2020-07-20"),
-        # CHANGED: Oct window had active smoke/fire. Push to mid-Nov,
-        # after documented fire activity had substantially subsided.
-        "post_fire_window": ("2020-11-10", "2020-11-30"),
-    },
     "mediterranean": {
-        # CHANGED: previous box was almost entirely sea. Corrected to
-        # cover North Evia's actual land area (the burned forest region),
-        # shifted south/inland from the coastline-only strip we got.
-        "aoi": ee.Geometry.Rectangle([23.55, 38.75, 23.95, 38.95]),
+        # CHANGED: real coordinates this time. Limni (23.317,38.767),
+        # Agia Anna (23.399,38.860), Mantoudi (23.478,38.798) all fall
+        # inside this box. Previous two boxes both missed this area
+        # entirely (started too far east / too far north).
+        "aoi": ee.Geometry.Rectangle([23.20, 38.70, 23.55, 38.95]),
         "pre_fire_window": ("2021-07-20", "2021-08-02"),
         "post_fire_window": ("2021-08-12", "2021-08-25"),
     },
     "siberia": {
-        "aoi": ee.Geometry.Rectangle([125.00, 61.60, 126.00, 62.00]),
-        # CHANGED: June window had heavy cloud cover. Shift earlier to
-        # May, still safely before the late-June fire onset.
+        # CHANGED: narrowed from 125.00-126.00 to 125.00-125.80 to stay
+        # entirely within UTM zone 51, avoiding the zone-51/52 tile
+        # seam visible in the post-fire mosaic.
+        "aoi": ee.Geometry.Rectangle([125.00, 61.60, 125.80, 62.00]),
         "pre_fire_window": ("2021-05-10", "2021-05-31"),
         "post_fire_window": ("2021-08-20", "2021-09-10"),
     },
@@ -77,23 +70,20 @@ def main():
     for region_name, config in REGIONS.items():
         print(f"\n=== {region_name.upper()} ===")
         aoi = config["aoi"]
-
         print(f"Fetching pre-fire window: {config['pre_fire_window']}")
         pre_final = prep_image(get_mosaic_image(aoi, *config["pre_fire_window"], CLOUD_THRESHOLD), aoi)
-
         print(f"Fetching post-fire window: {config['post_fire_window']}")
         post_final = prep_image(get_mosaic_image(aoi, *config["post_fire_window"], CLOUD_THRESHOLD), aoi)
 
         pre_path = os.path.join(OUT_DIR, f"{region_name}_pre_fire.tif")
         post_path = os.path.join(OUT_DIR, f"{region_name}_post_fire.tif")
-
         print(f"Downloading {pre_path}...")
         geemap.download_ee_image(pre_final, filename=pre_path, region=aoi, scale=10, crs="EPSG:4326", max_requests=1, max_cpus=1)
         print(f"Downloading {post_path}...")
         geemap.download_ee_image(post_final, filename=post_path, region=aoi, scale=10, crs="EPSG:4326", max_requests=1, max_cpus=1)
         print(f"{region_name} done.")
 
-    print("\nAll three regions re-acquired. Saved to data/raw/")
+    print("\nMediterranean and Siberia re-acquired. Pantanal untouched - see diagnostic.")
 
 
 if __name__ == "__main__":
