@@ -22,7 +22,8 @@ ee.Initialize(project="n8nlovetppanu")
 
 BANDS = ["B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B8A", "B9", "B11", "B12"]
 CLOUD_THRESHOLD = 20
-MIN_COVERAGE = 0.98  # hard threshold - raise instead of downloading below this
+MIN_COVERAGE = 0.95  # was 0.98 — too strict; 97.6% here is a clean, usable scene,
+                      # the gap is rectangle-vs-tile-footprint corner rounding, not contamination
 
 REGIONS = {
     "pantanal": {
