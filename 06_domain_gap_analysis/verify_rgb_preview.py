@@ -1,15 +1,12 @@
 """
-06_domain_gap_analysis/verify_rgb_preview.py
+06_domain_gap_analysis/verify_rgb_preview.py — FIXED
 
-Visual sanity check for all three zero-shot regions: RGB composite
-preview of pre-fire and post-fire tiles. Same purpose as Stage 1's
-check - catch cloud/haze/smoke contamination that scene-wide cloud
-percentage metadata can miss over a specific AOI.
-
-Siberia is the specific risk here: active-fire smoke isn't always
-flagged by CLOUDY_PIXEL_PERCENTAGE (smoke has different spectral
-properties than cloud), and the post-fire window ran up to 14% cloud
-on individual scenes.
+BUG FOUND: the percentile stretch was computed over the full array
+including nodata (-32768) pixels. Even a small nodata fraction at
+the AOI edge drags the 2nd-percentile calculation to a huge negative
+number, compressing all real data into a tiny sliver near the top of
+the output range - producing a washed-out near-white image. This was
+likely affecting earlier previews too, not just this one.
 """
 
 import rasterio
@@ -17,17 +14,27 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 REGIONS = ["pantanal", "mediterranean", "siberia"]
-RGB_BAND_INDICES = (4, 3, 2)  # R, G, B (B4, B3, B2 - 1-indexed for rasterio)
+RGB_BAND_INDICES = (4, 3, 2)
 
 
 def load_rgb(path, percentile_clip=2):
     with rasterio.open(path) as src:
         rgb = np.stack([src.read(b) for b in RGB_BAND_INDICES], axis=-1).astype(float)
+        nodata_val = src.nodata
+
+    # NEW: build a mask excluding nodata pixels BEFORE computing percentiles
+    valid_mask = np.ones(rgb.shape[:2], dtype=bool)
+    if nodata_val is not None:
+        for i in range(3):
+            valid_mask &= (rgb[:, :, i] != nodata_val)
 
     for i in range(3):
         band = rgb[:, :, i]
-        low, high = np.percentile(band, (percentile_clip, 100 - percentile_clip))
-        rgb[:, :, i] = np.clip((band - low) / (high - low + 1e-6), 0, 1)
+        valid_pixels = band[valid_mask]
+        low, high = np.percentile(valid_pixels, (percentile_clip, 100 - percentile_clip))
+        band = np.clip((band - low) / (high - low + 1e-6), 0, 1)
+        band[~valid_mask] = 0  # nodata rendered as black, same as before, but no longer skews the stretch
+        rgb[:, :, i] = band
 
     return rgb
 

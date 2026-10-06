@@ -16,6 +16,9 @@ __pycache__/
 04_training/checkpoints/*.pt
 
 06_domain_gap_analysis/data/raw/*.tif
+06_domain_gap_analysis/results/predictions/*.tif
+06_domain_gap_analysis/data/reference
+06_domain_gap_analysis/data/reference_labels
 
 # --- Explicitly NOT ignored (kept as evidence/docs), for clarity ---
 # *.png, *.md, *.json, *.py are never matched above and stay tracked
