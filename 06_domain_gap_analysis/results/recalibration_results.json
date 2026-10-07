@@ -1,0 +1,38 @@
+{
+  "pantanal": {
+    "baseline_shift": 0.179,
+    "best_alpha": 20,
+    "best_mean_iou": 0.22032882979742674,
+    "best_per_class_iou": {
+      "unburned": 0.4507621346103496,
+      "low_severity": 0.03321356689285716,
+      "moderate": 0.0897407757111602,
+      "high_severity": 0.30759884197534
+    },
+    "uncorrected_mean_iou": 0.17244139520868593
+  },
+  "mediterranean": {
+    "baseline_shift": -0.005,
+    "best_alpha": 0,
+    "best_mean_iou": 0.312378725121661,
+    "best_per_class_iou": {
+      "unburned": 0.3599381876296013,
+      "low_severity": 0.02846756088388472,
+      "moderate": 0.07928942037741213,
+      "high_severity": 0.7818197315957457
+    },
+    "uncorrected_mean_iou": 0.312378725121661
+  },
+  "siberia": {
+    "baseline_shift": 0.014,
+    "best_alpha": 0,
+    "best_mean_iou": 0.24549566757629418,
+    "best_per_class_iou": {
+      "unburned": 0.8529812299575235,
+      "low_severity": 0.004689333636932523,
+      "moderate": 0.0373131781887668,
+      "high_severity": 0.086998928521954
+    },
+    "uncorrected_mean_iou": 0.24549566757629418
+  }
+}
