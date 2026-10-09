@@ -374,3 +374,5 @@ model on Pantanal, Mediterranean, and Siberian fire imagery this
 way, to study how much performance degrades across different
 biomes and why (baseline vegetation differences, fuel type, fire
 behavior).
+
+**Working dude, please wait.**
