@@ -161,6 +161,7 @@ Independent burned-area references to adjudicate the two threshold rules (Copern
 
 Contains modified Copernicus Sentinel data (2020–2021). ESA WorldCover © ESA, CC BY 4.0. MODIS/FIRMS data courtesy of NASA.
 Event information from Mongabay-India, Down To Earth, Copernicus EMS and the papers listed in `docs/GLOSSARY.md` §15.
-**Licence:** not yet chosen — add one (e.g. MIT) before publishing.
+**Licence:** MIT
+**Author** Tamojeet
 
 New to remote sensing or segmentation? Start with [`docs/GLOSSARY.md`](docs/GLOSSARY.md).
