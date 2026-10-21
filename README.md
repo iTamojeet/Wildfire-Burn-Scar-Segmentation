@@ -26,34 +26,40 @@ Sal forest) and applied the model with no fine-tuning to:
 
 ## 2. Headline results
 
-| | Mean IoU | Mean Dice | Drop |
-|---|---|---|---|
-| Similipal — in-domain (held-out patches) | **0.666** | 0.760 | — |
-| N. Evia (zero-shot) | 0.312 | 0.402 | −53 % |
-| C. Yakutia (zero-shot) | 0.246 | 0.291 | −63 % |
-| Pantanal (zero-shot) | 0.172 | 0.262 | −74 % |
-| Pantanal + baseline-conditioned recalibration | 0.220 | — | −67 % |
+Two reference labellings were built for each zero-shot scene from the same imagery: the **default RdNBR thresholds**, and the
+**Similipal rule** (the calibrated thresholds the model was trained on). The unchanged model was scored against both.
+
+| Mean IoU | vs default-rule reference | vs **Similipal-rule** reference |
+|---|---|---|
+| Similipal — in-domain (held-out patches) | — | **0.666** (optimistic, see §7) |
+| Pantanal | 0.172 | **0.714** |
+| North Evia | 0.312 | **0.665** |
+| Central Yakutia | 0.246 | **0.490** |
+| Pantanal + baseline-conditioned recalibration | 0.220 | — |
+
+![Label-rule decomposition](docs/images/fig18_label_rule_decomposition.png)
+
+**What the results support**
+
+* My first reading — "the model loses 53–74 % of its IoU out of domain" — was **mostly wrong as an explanation**. That drop is
+  against default-threshold references. Against the rule the model was actually trained on, it scores 0.71 in Pantanal and 0.66
+  in Evia (about as well as at home) and 0.49 in Yakutia.
+* The two threshold rules disagree enormously about how much burned (Pantanal 47 % vs 81 %, Evia 85 % vs 94 %, Yakutia 1.6 % vs
+  11.9 % of classified pixels). **The threshold rule, not the network, is what fails to transfer** — and no independent reference
+  says which rule is right in any region.
+* Only **Yakutia** shows a genuine generalisation loss. Its vegetated pre-fire NBR is the most shifted from Similipal
+  (−0.10 mean, −0.14 median; Pantanal +0.04, Evia −0.01). Three regions can only show a pattern, not a trend.
+* The first version's baseline shift for Pantanal (+0.179) was a land-cover composition artefact (all pixels, including water
+  and bare land). The recalibration built on it (+0.048 mean IoU against the default-rule reference) is better read as a shift
+  toward the more severe default-rule labels than as a baseline correction.
 
 ![Domain gap](docs/images/fig07_domain_gap_overview.png)
-
-**What I can say with reasonable confidence**
-
-* Agreement with the zero-shot reference labels is far below the in-domain score in all three regions.
-* The regions fail differently. In Pantanal the model **under-calls severity** (`high_severity`: precision 0.92, recall 0.30 —
-  the reverse of in-domain, 0.21 / 0.92). In Yakutia it **misses most real fire** and scatters false `high` calls over unburned
-  forest. In Evia, whose scene is 84 % `high` under the reference rule, `high` is recovered well (IoU 0.78) — largely a
-  class-prevalence effect.
-* Pre-fire NBR baseline shift does not rank the regions by performance drop (two of three lose 53–63 % at ≈ 0 shift).
-* A one-parameter logit bias scaled by that shift recovers **+0.048 mean IoU in Pantanal (≈ 9.7 % of the gap)** and is a no-op
-  where the shift is ≈ 0.
-
-**What I cannot yet claim** — and why (details in §7 and `06_domain_gap_analysis/README.md` §9–10): the in-domain score is
-optimistic (overlapping patches split randomly, no independent test set); the zero-shot reference labels use a different
-threshold rule from the training labels, so part of the "gap" may be label protocol rather than ecology; and explanations for each
-failure are hypotheses, not isolated causes. Two cheap scripts to test this are included and **not yet run**.
-
 ![Per-class IoU](docs/images/fig08_per_class_by_region.png)
 ![Confusion matrices](docs/images/fig09_domain_confusion_matrices.png)
+
+*Observation kept from the first pass (against the default-rule reference):* in Pantanal `high_severity` has precision 0.92 and
+recall 0.30, the reverse of in-domain (0.21 / 0.92); in Yakutia the model misses most reference fire and scatters false `high`
+calls over unburned forest. Their causes are untested.
 
 ---
 
@@ -94,6 +100,7 @@ failure are hypotheses, not isolated causes. Two cheap scripts to test this are 
 
 ![Debugging](docs/images/fig17_debugging_log.png)
 
+* **Decompose a gap before explaining it.** Scoring the same predictions against two labelling rules (and against the ceiling of a perfect replica) showed that most of my first explanation was wrong — see `06_domain_gap_analysis/README.md` §6A.
 * **Per-class metrics + prevalence + κ**, not just accuracy or mean IoU.
 * **Assert on every download** (bands, % non-zero, file size, tile coverage).
 * **Label the compromises.** The +380 offset, the in-sample α and the proxy labels are stated, not hidden.
@@ -139,25 +146,21 @@ earthengine authenticate        # then set YOUR Earth Engine Cloud project id in
    the in-domain score is optimistic. **No independent test set**; the checkpoint was selected on the validation set it is reported on.
 2. **Proxy labels:** labels are an RdNBR rule (with a hand-calibrated +380 offset) applied to the same bands the network sees —
    in-domain IoU measures how well the rule was re-learned, not independent fire detection.
-3. **Label-protocol mismatch:** zero-shot references use literature-default thresholds; the training rule differed. Some of the
-   measured "gap" may be this, not ecology.
+3. **Label-protocol mismatch — measured:** zero-shot references with the default rule disagree strongly with the Similipal rule the model learned (the main reason for the first-pass 'gap'). Both rules are proxies; **no independent burned-area reference** was used in any region.
 4. **Phenology/temporal confounds** (Pantanal Jul→Dec, Yakutia May→Aug, Similipal dry-season leaf-drop).
 5. **n = 1 event per biome, one small AOI and one date pair each, one training run, no seeds or confidence intervals.**
-6. **Baseline shift computed over all pixels** (including water); n = 3 — descriptive only.
-7. **Recalibration tuned in-sample**, best α at the edge of the search grid.
+6. **n = 3 regions:** the baseline-shift pattern (vegetated-only) is descriptive; the all-pixel version in the first analysis was misleading.
+7. **Recalibration** was tuned in-sample, its best α sits at the edge of the search grid, and its input signal (+0.179) was a composition artefact.
 8. Scene-level cloud filtering only; smoke/cirrus not masked per pixel. WorldCover 2021 used as mask for all years.
 
 ## 8. Next steps
 
-Run `decompose_gap_by_label_rule.py` and `compute_baseline_shift_vegetated.py`; block-wise spatial split with several seeds;
-independent burned-area references (Copernicus EMS for Evia, MapBiomas Fogo for Pantanal, GWIS for Yakutia); seasonal-matched
-pre-fire imagery; augmentation; cheap domain adaptation (AdaBN/Tent, few-shot fine-tuning); feature-space analysis of the
-encoder; RBR instead of RdNBR.
+Independent burned-area references to adjudicate the two threshold rules (Copernicus EMS for Evia, MapBiomas Fogo for Pantanal, GWIS for Yakutia); region-specific thresholds scored against them; seasonal-matched pre-fire imagery; a block-wise spatial split with several seeds; a Yakutia covariate-shift deep-dive; cheap domain adaptation (AdaBN/Tent, few-shot fine-tuning); RBR instead of RdNBR.
 
 ## 9. Data, credits, licence
 
 Contains modified Copernicus Sentinel data (2020–2021). ESA WorldCover © ESA, CC BY 4.0. MODIS/FIRMS data courtesy of NASA.
 Event information from Mongabay-India, Down To Earth, Copernicus EMS and the papers listed in `docs/GLOSSARY.md` §15.
-**Licence:** MIT. 2026 @ Tamojeet.
+**Licence:** not yet chosen — add one (e.g. MIT) before publishing.
 
 New to remote sensing or segmentation? Start with [`docs/GLOSSARY.md`](docs/GLOSSARY.md).
